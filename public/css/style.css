@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    color: #000;
+    background-color: green;
+    font-size: 30px;
+    font-family: 'sacramento';
+    width: 100%;
+    height: 200px;
+    text-transform: capitalize;
+}
+
+.nav h1 {
+    padding: 0px 500px;
+    color: red;
+}
+
+.nav h2 {
+    font-family: monospace;
+    padding: 0px 300px;
+}
+
+.span {
+    padding: 500px;
+}
+
+.span::before {
+    content: "around the world";
+    animation: text infinite 8s;
+    padding-left: 10px;
+}
+
+.form {
+    margin: 20px;
+    
+
+}
+
+@keyframes text {
+    0% {
+        content: "in every country";
+        color: red;
+    }
+
+    50% {
+        content: "every continent";
+        color: snow;
+    }
+
+    75% {
+        content: "around the world";
+        color: violet;
+    }
+}
